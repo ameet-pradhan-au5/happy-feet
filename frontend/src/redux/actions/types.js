@@ -1,0 +1,10 @@
+export const GET_PRODUCTS = 'GET_PRODUCTS';
+export const ADD_TO_CART = 'ADD_TO_CART';
+export const CHECKOUT = 'CHECKOUT';
+export const SORT_LOW_TO_HIGH = 'SORT_LOW_TO_HIGH';
+export const SORT_HIGH_TO_LOW = 'SORT_HIGH_TO_LOW';
+export const SET_MIN_PRICE = 'SET_MIN_PRICE';
+export const SET_MAX_PRICE = 'SET_MAX_PRICE';
+export const FILTERED_ARRAY = 'FILTERED_ARRAY';
+export const GET_BRAND = 'GET_BRAND';
+export const GET_COLOR = 'GET_COLOR';
