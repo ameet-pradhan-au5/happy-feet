@@ -13,7 +13,9 @@ import {
 } from './types';
 
 export const getProducts = () => {
-  const response = axios.get('/products');
+  const response = axios.get(
+    'https://happy-feet-api.herokuapp.com/api/products'
+  );
   return (dispatch) => {
     response
       .then((res) => {
